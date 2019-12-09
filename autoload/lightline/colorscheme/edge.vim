@@ -10,27 +10,27 @@
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
 if &background ==# 'dark'
-    let s:foreground = [ '#b7bec9', 0 ]
+    let s:foreground = [ '#b7bec9', 15 ]
     let s:background = [ '#262729', 0 ]
     let s:background_alt = [ '#2d2f33', 0 ]
-    let s:background_grey = [ '#3e4249', 0 ]
-    let s:red = [ '#ea7272', 0 ]
-    let s:purple = [ '#d390e7', 0 ]
-    let s:yellow = [ '#ddb66c', 0 ]
-    let s:green = [ '#a1bf78', 0 ]
-    let s:blue = [ '#73b3e7', 0 ]
-    let s:grey = [ '#88909f', 0 ]
+    let s:background_grey = [ '#3e4249', 8 ]
+    let s:red = [ '#ea7272', 1 ]
+    let s:purple = [ '#d390e7', 5 ]
+    let s:yellow = [ '#ddb66c', 3 ]
+    let s:green = [ '#a1bf78', 2 ]
+    let s:blue = [ '#73b3e7', 4 ]
+    let s:grey = [ '#88909f', 7 ]
 else
-    let s:foreground = [ '#5e646f', 0 ]
+    let s:foreground = [ '#5e646f', 15 ]
     let s:background = [ '#fafafa', 0 ]
     let s:background_alt = [ '#eceff2', 0 ]
-    let s:background_grey = [ '#dde2e7', 0 ]
-    let s:red = [ '#e17373', 0 ]
-    let s:purple = [ '#b870ce', 0 ]
-    let s:yellow = [ '#e7b14a', 0 ]
-    let s:green = [ '#83b474', 0 ]
-    let s:blue = [ '#6b8ec7', 0 ]
-    let s:grey = [ '#949ba5', 0 ]
+    let s:background_grey = [ '#dde2e7', 8 ]
+    let s:red = [ '#e17373', 1 ]
+    let s:purple = [ '#b870ce', 5 ]
+    let s:yellow = [ '#e7b14a', 3 ]
+    let s:green = [ '#83b474', 2 ]
+    let s:blue = [ '#6b8ec7', 4 ]
+    let s:grey = [ '#949ba5', 7 ]
 endif
 "}}}
 
